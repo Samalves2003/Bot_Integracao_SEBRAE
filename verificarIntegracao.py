@@ -300,7 +300,7 @@ for index, row in df.iterrows():
         if sucesso == True:
            time.sleep(7)
            tentar_integrar_e_verificar(driver, df, index)
-        
+        #Se o erro do PJ permanacer, verificar com retrun true ou false na função de reintegrar!
         
         
        
